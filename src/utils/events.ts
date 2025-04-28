@@ -1,13 +1,14 @@
 import { convertToRWF } from "./helper";
+import { Event } from "./type";
 
 
-export const events = [
+export const events:Event[] = [
   {
     id: "evt-001",
     title: "Kigali Jazz Festival",
     description: "Experience the ultimate jazz festival featuring top artists from across Africa. Enjoy a weekend filled with amazing performances, great food, and unforgettable memories in the heart of Kigali.",
-    startDate: "2023-08-15",
-    endDate: "2023-08-17",
+    startDate: "2025-08-15",
+    endDate: "2025-08-17",
     time: "18:00",
     duration: "3 days",
     location: {
@@ -23,7 +24,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2070",
     organizer: {
       name: "Rwanda Events",
-      logo: "https://via.placeholder.com/150?text=Rwanda+Events",
+      logo: "/logo.png",
       description: "Leading event organizer in Rwanda"
     },
     ticketsAvailable: 500,
@@ -33,8 +34,8 @@ export const events = [
     id: "evt-002",
     title: "Rwanda Tech Summit",
     description: "Join industry leaders and tech enthusiasts for a day of innovation, inspiration, and networking. Discover the latest trends and technologies shaping Rwanda's digital future.",
-    startDate: "2023-09-10",
-    endDate: "2023-09-12",
+    startDate: "2025-09-10",
+    endDate: "2025-09-12",
     time: "09:00",
     duration: "3 days",
     location: {
@@ -47,10 +48,10 @@ export const events = [
     price: convertToRWF(100),
     category: "Technology",
     tags: ["Tech", "Innovation", "Digital", "Networking"],
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070",
+    image: "https://images.unsplash.com/photo-1560523160-c4ef2f0c61a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     organizer: {
       name: "RwandICT Chamber",
-      logo: "https://via.placeholder.com/150?text=RwandICT",
+      logo: "/logo.png",
       description: "Promoting technology and innovation in Rwanda"
     },
     ticketsAvailable: 200,
@@ -60,8 +61,8 @@ export const events = [
     id: "evt-003",
     title: "Kigali Food & Culture Festival",
     description: "Indulge in a culinary journey featuring exquisite dishes and cultural performances. A perfect event for food lovers and cultural enthusiasts.",
-    startDate: "2023-07-28",
-    endDate: "2023-07-30",
+    startDate: "2025-07-28",
+    endDate: "2025-07-30",
     time: "16:00",
     duration: "3 days",
     location: {
@@ -77,7 +78,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=2070",
     organizer: {
       name: "Taste of Rwanda",
-      logo: "https://via.placeholder.com/150?text=Taste+Rwanda",
+      logo: "/logo.png",
       description: "Celebrating Rwandan cuisine and culture"
     },
     ticketsAvailable: 150,
@@ -87,8 +88,8 @@ export const events = [
     id: "evt-004",
     title: "Contemporary Art Exhibition",
     description: "Explore contemporary masterpieces from emerging and established Rwandan artists in this curated exhibition that showcases Rwanda's vibrant art scene.",
-    startDate: "2023-08-05",
-    endDate: "2023-08-20",
+    startDate: "2025-08-05",
+    endDate: "2025-08-20",
     time: "10:00",
     duration: "2 weeks",
     location: {
@@ -104,7 +105,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1544161513-0179fe746fd5?q=80&w=2070",
     organizer: {
       name: "Rwanda Arts Council",
-      logo: "https://via.placeholder.com/150?text=Arts+Council",
+      logo: "/logo.png",
       description: "Promoting Rwandan art and artists"
     },
     ticketsAvailable: 300,
@@ -114,8 +115,8 @@ export const events = [
     id: "evt-005",
     title: "Kigali Peace Marathon",
     description: "Challenge yourself in this annual city marathon. Run through Kigali's iconic landmarks and scenic routes while being cheered by thousands of spectators.",
-    startDate: "2023-10-01",
-    endDate: "2023-10-01",
+    startDate: "2025-10-01",
+    endDate: "2025-10-01",
     time: "07:00",
     duration: "1 day",
     location: {
@@ -128,10 +129,10 @@ export const events = [
     price: convertToRWF(55),
     category: "Sports",
     tags: ["Marathon", "Running", "Outdoors", "Charity"],
-    image: "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?q=80&w=1968",
+    image: "https://pbs.twimg.com/media/GOzSzgzWEAAN2I1.jpg:large",
     organizer: {
       name: "Rwanda Athletics Federation",
-      logo: "https://via.placeholder.com/150?text=Run+Rwanda",
+      logo: "/logo.png",
       description: "Organizing running events across Rwanda"
     },
     ticketsAvailable: 1000,
@@ -141,8 +142,8 @@ export const events = [
     id: "evt-006",
     title: "Rwanda Business Forum",
     description: "Connect with business leaders and entrepreneurs to gain insights on leadership, innovation, and strategies for success in Rwanda's growing economy.",
-    startDate: "2023-09-25",
-    endDate: "2023-09-26",
+    startDate: "2025-09-25",
+    endDate: "2025-09-26",
     time: "09:30",
     duration: "2 days",
     location: {
@@ -158,7 +159,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074",
     organizer: {
       name: "Rwanda Development Board",
-      logo: "https://via.placeholder.com/150?text=RDB",
+      logo: "/logo.png",
       description: "Facilitating business growth in Rwanda"
     },
     ticketsAvailable: 100,
@@ -168,8 +169,8 @@ export const events = [
     id: "evt-007",
     title: "Kigali Comedy Night",
     description: "Laugh your heart out with performances by top stand-up comedians from Rwanda and East Africa. An evening of humor, wit, and entertainment.",
-    startDate: "2023-08-20",
-    endDate: "2023-08-20",
+    startDate: "2025-08-20",
+    endDate: "2025-08-20",
     time: "19:00",
     duration: "3 hours",
     location: {
@@ -185,7 +186,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1527224857830-43a7acc85260?q=80&w=2071",
     organizer: {
       name: "Laugh Factory Kigali",
-      logo: "https://via.placeholder.com/150?text=Laugh+Factory",
+      logo: "/logo.png",
       description: "Bringing laughter to Kigali"
     },
     ticketsAvailable: 120,
@@ -195,8 +196,8 @@ export const events = [
     id: "evt-008",
     title: "Wellness & Yoga Retreat",
     description: "Rejuvenate your mind, body, and soul in this wellness retreat featuring yoga sessions, meditation, and workshops on holistic health practices.",
-    startDate: "2023-07-15",
-    endDate: "2023-07-17",
+    startDate: "2025-07-15",
+    endDate: "2025-07-17",
     time: "08:00",
     duration: "3 days",
     location: {
@@ -212,7 +213,7 @@ export const events = [
     image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=2070",
     organizer: {
       name: "Wellness Rwanda",
-      logo: "https://via.placeholder.com/150?text=Wellness+Rwanda",
+      logo: "/logo.png",
       description: "Promoting health and wellness in Rwanda"
     },
     ticketsAvailable: 50,
@@ -234,11 +235,7 @@ export const categories = [
 
 export const cities = [
   "All",
-  "Kigali",
-  "Musanze",
-  "Rubavu",
-  "Huye",
-  "Nyagatare"
+  "Bujumbura",
 ];
 
 export const tags = [

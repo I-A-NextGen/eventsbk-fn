@@ -1,4 +1,6 @@
 import React from 'react'
+import FeaturedSections from '../components/sections/featuredSections'
+import EventsFilterSection from '../components/card/EventsFilterSection'
 
 const Home = () => {
   return (
@@ -13,6 +15,9 @@ const Home = () => {
           </p>
         </div>
       </section>
+      <FeaturedSections/>
+      <EventsFilterSection/>
+      
     </div>
   )
 }
